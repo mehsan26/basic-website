@@ -1,0 +1,52 @@
+/*
+h1 - 48px
+h2 - 36px
+h3 - 28px
+all other text - 21px
+
+colors: 
+   #588C94 
+   #1D3C41
+*/
+body {
+    margin: 0;
+}
+/* ======= style ======== */
+.header {
+    color: white;
+    background: #588C94;
+    text-align: center;
+    padding: 30px;
+}
+.main {
+    color: gray;
+    text-align: center;
+    margin: 40px auto;
+    width: 400px; 
+}
+.footer {
+    color: white;
+    background: #1D3C41;
+    text-align: center;
+    padding: 70px;
+}
+.column {
+    display: flex;
+    margin: 0px auto;
+}
+.column1 {
+    margin:10px;
+}
+/* ====== typo ====== */
+.h1 {
+    font-size:48px;
+}
+.h2 {
+    font-size: 36px;
+}
+.h3 {
+    font-size: 28px;
+}
+.other-text {
+    font-size: 21px;
+}
